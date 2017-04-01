@@ -1,24 +1,33 @@
 .back{
 	/*background:coral;*/
+	margin-bottom: -140px;
 }
 .bg{
 	    margin: 20px;
     background: white;
 }
 .logo{
-	padding:5px 30px;
-	/*color: white;*/
-	background: white;
+	    padding: 5px 20px;
+     color: white; 
+    background: white;
+    border-radius: 15px;
 }
 .logo a{
 	color: black;
 	font-size: 16px;
 }
 .bgg{
-	background: url('images/bg.jpg');
+	background:url('images/po.png'),url('images/bg.jpg');
 	height: 100vh;
 	width: 100%;
 	/*position: relative;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 20px 0px;
 }
 .text{
 	margin-top: 30%;
@@ -35,22 +44,25 @@
 }
 .bggg{
 	background: #262F36;
-	height: 90vh;
+	/*height: 100%;*/
+	padding: 20px;
 }
 .textthree{
 	color: white;
 	margin-top: 30%;
 }
 textarea{
-	height: 70vh;
+	height: 50vh;
 	margin-top: 40px;
 	width: 100%;
 	background: #262F36;
 	color:#2665B2;
+	margin-bottom: 50px;
 }
 .imagenew{
 	background: url('images/in.jpg');
-	height: 90vh;
+	height: 100%;
+	/*padding: 50px;*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -58,14 +70,27 @@ textarea{
 	/*background: rgba(0, 0, 0, .6); */
 	/*linear-gradient( 45deg, blue, red );*/
 }
+.imag img{
+	    width: 100%;
+    height: 100%;
+}
+.hrr{
+	background: black;
+	margin-top: 36px;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+}
 .textfour{
 	color: white;
 	font-size: 18px;
-	margin-top: 15%;
+	margin-top: 10%;
+	margin-bottom: 100px;
 }
 .back2{
 	background: #2595FF;
-	height: 120px;
+	/*height: 100%;*/
+	/*margin-bottom: 20px;*/
+	padding: 10px 0px;
 }
 .topt{
 	margin-top: 30px;
@@ -85,6 +110,7 @@ textarea{
 	width: 40%;
 	text-align: center;
 	margin-top: 100px;
+	height: 100%;
 }
 /*.posi{
 	position: absolute;
@@ -98,6 +124,7 @@ textarea{
 	width: 50%;
 	text-align: center;
 	margin-top: 150px;
+	margin-bottom: 40px
 }
 .areaone{
 	text-align: center;
@@ -113,11 +140,14 @@ textarea{
 .colr{
 	background: #262F36;
 	color: white;
-	height: 60vh;
+	height: 100%;
+	/*margin-bottom: 50px;*/
 }
 .to{
 	margin-top: 100px;
+	margin-bottom: 60px;
 }
 .to ul li{
 	list-style: none;
+	margin-bottom: 10px;
 }
